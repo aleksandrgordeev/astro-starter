@@ -1,6 +1,24 @@
 paths:
   uploads: public/uploads
   static: public
+collections_config:
+  pages:
+    path: src/pages
+    icon: wysiwyg
+    documentation:
+      url: google.com
+      text:
+      icon:
+    description: Description
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  content:
+    path: src/content
+    icon: wysiwyg
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
